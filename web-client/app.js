@@ -1,5 +1,5 @@
 'use strict';
-var serviceBase = 'http://127.0.0.1/web-service/web/'
+var serviceBase = 'http://localhost/angularjs-yii2-full/web-service/web/'
 // Declare app level module which depends on views, and components
 var spaApp = angular.module('spaApp', [
   'ngRoute',
