@@ -1,4 +1,5 @@
 'use strict';
+
 spaApp_book.config(['$routeProvider', function($routeProvider) {
   $routeProvider
 	.when('/book/index', {
