@@ -7,6 +7,7 @@
   <!-- Include CSS Bootstrap Helper Libraries -->
   <link rel="stylesheet" href="assets/twitter-bootstrap/css/bootstrap.min.css" />
   <link rel="stylesheet" href="assets/twitter-bootstrap/css/bootstrap-theme.min.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 
 <!-- define angular controller -->
@@ -28,7 +29,7 @@
   <div id="main" class="container"> 
     <!-- angular templating -->
 		<!-- this is where content will be injected -->
-    <div ng-view></div>
+    <div ng-view class="animate"></div>
   </div>
   
   <footer class="text-center">
@@ -37,8 +38,8 @@
   
   <!-- Include AngularJS Libraries -->
   <script src="assets/angular/angular.min.js"></script>
-  <script src="assets/angular/angular-route.min.js"></script>
-  <script src="assets/angular/angular-animate.min.js"></script>
+  <script src="assets/angular-route/angular-route.min.js"></script>
+  <script src="assets/angular-animate/angular-animate.min.js"></script>
   
   <!-- AngularJS custom codes -->
   <script src="app.js"></script>
@@ -46,9 +47,6 @@
   <script src="controllers/book.js"></script>  
   <script src="models/book.js"></script>
 
-  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-  <script src="js/ie10-viewport-bug-workaround.js"></script>
-  
 </body>
 
 </html>

@@ -1,3 +1,7 @@
+/*
+	Create book.js in controllers directory. It will handle book views like Yii controller does.
+*/
+
 'use strict';
 
 spaApp_book.config(['$routeProvider', function($routeProvider) {

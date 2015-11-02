@@ -1,3 +1,7 @@
+/* 
+	book.js will handle CRUD data provided by REST service is is pretty much what models are doing in Yii.
+*/
+
 'use strict';
 spaApp_book.factory("services", ['$http','$location','$route', 
 	function($http,$location,$route) {
