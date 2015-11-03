@@ -1,7 +1,9 @@
 // =========================================================================
 // CONTROLLER APP
 // =========================================================================
+
 'use strict';
+
 (function(){
 angular.module('blankonController', [])
 
@@ -31,6 +33,7 @@ angular.module('blankonController', [])
 
             // Fix input placeholder issue for IE8 and IE9
             if (isIE8 || isIE9) { // ie8 & ie9
+                
                 // this is html5 placeholder fix for inputs, inputs with placeholder-no-fix class will be skipped(e.g: we need this for password fields)
                 $('input[placeholder]:not(.placeholder-no-fix), textarea[placeholder]:not(.placeholder-no-fix)').each(function () {
                     var input = $(this);

@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 
 <!-- define angular app -->
-<html lang="en" data-ng-app="blankonApp">
+<!--[if IE 8]> <html lang="en" class="ie8" data-ng-app="blankonApp"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9" data-ng-app="blankonApp"> <![endif]-->
+<!--[if !IE]><!--> <html lang="en" data-ng-app="blankonApp"> <!--<![endif]-->
 <head>
 
   <!-- START @GLOBAL MANDATORY STYLES -->
@@ -47,10 +49,13 @@
             <!-- START @HEADER -->
             <header data-ng-include="'partials/header.html'" id="header"></header> <!-- /#header -->
             <!--/ END HEADER -->
-            <!--
 
             <!-- START @PAGE CONTENT -->
             <section id="page-content">
+
+                <!-- Start page header -->
+                <div class="header-content header-content-custom" data-ng-include="'partials/header-content.html'"></div><!-- /.header-content -->
+                <!--/ End page header -->
 
                 <!-- Start body content -->
                 <div data-ui-view class="body-content animated fadeIn"></div><!-- /.body-content -->
