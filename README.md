@@ -18,7 +18,7 @@ git clone https://github.com/hscstudio/angular1-yii2 angular1-yii2
 cd angular1-yii2
 ```
 
-Then import database [angular_spa.sql](web-service/angular_spa.sql).
+Then import database [angularjs_yii2_full.sql](web-service/angularjs_yii2_full.sql.sql).
 
 After it's done run the following:
 
